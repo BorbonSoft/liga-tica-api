@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const JSON_FILE = "./data.json";
+const JSON_FILE = "./src/assets/data.json";
 
 app.use(express.json()); // Permite recibir JSON en las peticiones
 app.use(cors()); // Permite acceso desde cualquier origen
@@ -13,6 +13,7 @@ app.use(cors()); // Permite acceso desde cualquier origen
 app.get("/data", (req, res) => {
   fs.readFile(JSON_FILE, "utf8", (err, data) => {
     if (err) {
+      console.info(err.message)
       return res.status(500).json({ error: "Error al leer el archivo" });
     }
     res.json(JSON.parse(data));
