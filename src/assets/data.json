@@ -1,6 +1,7 @@
 {
     "firstTournament": {
-        "calendar": [
+        "name": "Torneo Apertura 2024",
+        "matchdays": [
             {
                 "name": "Jornada 1",
                 "matches": [
@@ -1566,7 +1567,8 @@
         ]
     },
     "secondTournament": {
-        "calendar": [
+        "name": "Torneo Clausura 2025",
+        "matchdays": [
             {
                 "name": "Jornada 1",
                 "matches": [
