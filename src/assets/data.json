@@ -1619,22 +1619,22 @@
                     {
                         "local": {
                             "goals": 1,
-                            "team": "P. Zeledón"
+                            "team": "Puntarenas"
                         },
                         "visitor": {
                             "goals": 1,
-                            "team": "Sporting"
+                            "team": "Herediano"
                         },
                         "played": true
                     },
                     {
                         "local": {
                             "goals": 1,
-                            "team": "Puntarenas"
+                            "team": "P. Zeledón"
                         },
                         "visitor": {
                             "goals": 1,
-                            "team": "Herediano"
+                            "team": "Sporting"
                         },
                         "played": true
                     }
@@ -1645,55 +1645,55 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Liberia"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Alajuelense"
                         },
                         "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Santos"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "San Carlos"
                         },
                         "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Santa Ana"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Puntarenas"
                         },
                         "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 4,
                             "team": "Herediano"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Guanacasteca"
                         },
                         "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Sporting"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Cartaginés"
                         },
                         "played": true
@@ -1716,22 +1716,11 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Guanacasteca"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "Saprissa"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Puntarenas"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Santos"
                         },
                         "played": true
@@ -1742,25 +1731,14 @@
                             "team": "Cartaginés"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Liberia"
                         },
                         "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "San Carlos"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "Sporting"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "P. Zeledón"
                         },
                         "visitor": {
@@ -1772,10 +1750,32 @@
                     {
                         "local": {
                             "goals": 0,
-                            "team": "Alajuelense"
+                            "team": "San Carlos"
+                        },
+                        "visitor": {
+                            "goals": 1,
+                            "team": "Sporting"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 2,
+                            "team": "Guanacasteca"
                         },
                         "visitor": {
                             "goals": 0,
+                            "team": "Saprissa"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 1,
+                            "team": "Alajuelense"
+                        },
+                        "visitor": {
+                            "goals": 1,
                             "team": "Herediano"
                         },
                         "played": true
@@ -1787,12 +1787,45 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 4,
                             "team": "Liberia"
                         },
                         "visitor": {
                             "goals": 0,
                             "team": "Santa Ana"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 0,
+                            "team": "Guanacasteca"
+                        },
+                        "visitor": {
+                            "goals": 1,
+                            "team": "P. Zeledón"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 2,
+                            "team": "Cartaginés"
+                        },
+                        "visitor": {
+                            "goals": 1,
+                            "team": "San Carlos"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 0,
+                            "team": "Sporting"
+                        },
+                        "visitor": {
+                            "goals": 1,
+                            "team": "Alajuelense"
                         },
                         "played": true
                     },
@@ -1809,44 +1842,11 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Cartaginés"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "San Carlos"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
-                            "team": "Sporting"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "Alajuelense"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
-                            "team": "Guanacasteca"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "P. Zeledón"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Santos"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Herediano"
                         },
                         "played": true
@@ -1859,10 +1859,32 @@
                     {
                         "local": {
                             "goals": 0,
+                            "team": "Liberia"
+                        },
+                        "visitor": {
+                            "goals": 1,
+                            "team": "Santos"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 3,
+                            "team": "Herediano"
+                        },
+                        "visitor": {
+                            "goals": 1,
+                            "team": "Saprissa"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 1,
                             "team": "Santa Ana"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Sporting"
                         },
                         "played": true
@@ -1880,45 +1902,23 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Herediano"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "Saprissa"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
-                            "team": "Puntarenas"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "Cartaginés"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "San Carlos"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Guanacasteca"
                         },
                         "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Liberia"
+                            "goals": 1,
+                            "team": "Puntarenas"
                         },
                         "visitor": {
                             "goals": 0,
-                            "team": "Santos"
+                            "team": "Cartaginés"
                         },
                         "played": true
                     }
@@ -1929,12 +1929,23 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Saprissa"
+                            "goals": 2,
+                            "team": "Sporting"
                         },
                         "visitor": {
-                            "goals": 0,
-                            "team": "Santos"
+                            "goals": 1,
+                            "team": "Liberia"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 1,
+                            "team": "Guanacasteca"
+                        },
+                        "visitor": {
+                            "goals": 1,
+                            "team": "Puntarenas"
                         },
                         "played": true
                     },
@@ -1951,23 +1962,12 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Cartaginés"
+                            "goals": 1,
+                            "team": "Saprissa"
                         },
                         "visitor": {
                             "goals": 0,
-                            "team": "Santa Ana"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
-                            "team": "Guanacasteca"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "Puntarenas"
+                            "team": "Santos"
                         },
                         "played": true
                     },
@@ -1977,19 +1977,19 @@
                             "team": "P. Zeledón"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Herediano"
                         },
                         "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Sporting"
+                            "goals": 2,
+                            "team": "Cartaginés"
                         },
                         "visitor": {
-                            "goals": 0,
-                            "team": "Liberia"
+                            "goals": 1,
+                            "team": "Santa Ana"
                         },
                         "played": true
                     }
@@ -2000,18 +2000,18 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Puntarenas"
+                            "goals": 2,
+                            "team": "Santa Ana"
                         },
                         "visitor": {
-                            "goals": 0,
-                            "team": "P. Zeledón"
+                            "goals": 2,
+                            "team": "San Carlos"
                         },
                         "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Santos"
                         },
                         "visitor": {
@@ -2022,29 +2022,18 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Alajuelense"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "Cartaginés"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Liberia"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Saprissa"
                         },
                         "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Herediano"
                         },
                         "visitor": {
@@ -2055,12 +2044,23 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Santa Ana"
+                            "goals": 2,
+                            "team": "Puntarenas"
+                        },
+                        "visitor": {
+                            "goals": 1,
+                            "team": "P. Zeledón"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 1,
+                            "team": "Alajuelense"
                         },
                         "visitor": {
                             "goals": 0,
-                            "team": "San Carlos"
+                            "team": "Cartaginés"
                         },
                         "played": true
                     }
@@ -2071,7 +2071,7 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "P. Zeledón"
                         },
                         "visitor": {
@@ -2082,56 +2082,56 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
-                            "team": "Saprissa"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "Alajuelense"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
-                            "team": "Sporting"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "Puntarenas"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
-                            "team": "Herediano"
-                        },
-                        "visitor": {
-                            "goals": 0,
-                            "team": "Liberia"
-                        },
-                        "played": true
-                    },
-                    {
-                        "local": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Santos"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Santa Ana"
                         },
                         "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 2,
+                            "team": "Herediano"
+                        },
+                        "visitor": {
+                            "goals": 1,
+                            "team": "Liberia"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 1,
+                            "team": "Saprissa"
+                        },
+                        "visitor": {
+                            "goals": 1,
+                            "team": "Alajuelense"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 1,
                             "team": "Guanacasteca"
                         },
                         "visitor": {
                             "goals": 0,
                             "team": "Cartaginés"
+                        },
+                        "played": true
+                    },
+                    {
+                        "local": {
+                            "goals": 2,
+                            "team": "Sporting"
+                        },
+                        "visitor": {
+                            "goals": 4,
+                            "team": "Puntarenas"
                         },
                         "played": true
                     }
