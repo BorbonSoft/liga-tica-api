@@ -12,10 +12,12 @@ export const getPositions = async () => {
     if (typeof data !== 'undefined' && data != null) {
         response = {
             firstTournament: [],
-            secondTournament: []
+            secondTournament: [],
+            globalPositions: []
         }
         response.firstTournament = calculatePositions('firstTournament', data)
-        //response.secondTournament = calculatePositions('secondTournament', data)
+        response.secondTournament = calculatePositions('secondTournament', data)
+        response.globalPositions = calculateGlobalPositions(response.firstTournament, response.secondTournament)
     }
     return response
 }
@@ -61,7 +63,7 @@ const calculatePositions = (tournament, data) => {
             }
         })
     });
-    sortPositions(positions)
+    sortPositions(positions, matchdays)
     return positions
 }
 
@@ -82,7 +84,7 @@ const initPositions = () => {
     ]
 }
 
-const sortPositions = (positions) => {
+const sortPositions = (positions, matchdays = null) => {
     positions.sort((a, b) => {
         if (a.pts !== b.pts) {
             return b.pts - a.pts
@@ -93,25 +95,27 @@ const sortPositions = (positions) => {
         if (a.gf !== b.gf) {
             return b.gf - a.gf
         }
-        const particularMatchResult = checkParticularMatch(a, b)
-        if (particularMatchResult != 0) {
-            return particularMatchResult
+        if(matchdays != null) {
+            const particularMatchResult = checkParticularMatch(matchdays, a, b)
+            if (particularMatchResult != 0) {
+                return particularMatchResult
+            }
         }
         return b.gc - a.gc
     })
 }
 
-const checkParticularMatch = (posA, posB) => {
+const checkParticularMatch = (matchdays, posA, posB) => {
     let localAMatchWinner = ''
     let localAMatch = null
     let localBMatchWinner = ''
-    let localBMatch = null
-    this.journeys.forEach((journey) => {
-        localAMatch = journey.matches.find((match) => match.local.team == posA.team && match.visitor.team == posB.team)
+    let localBMatch = null    
+    matchdays.forEach((matchday) => {
+        localAMatch = matchday.matches.find((match) => match.local.team == posA.team && match.visitor.team == posB.team)
         if (localAMatch != null) return
     })
-    this.journeys.forEach((journey) => {
-        localBMatch = journey.matches.find((match) => match.local.team == posB.team && match.visitor.team == posA.team)
+    matchdays.forEach((matchday) => {
+        localBMatch = matchday.matches.find((match) => match.local.team == posB.team && match.visitor.team == posA.team)
         if (localBMatch != null) return
     })
     if (localAMatch != null) {
@@ -132,4 +136,32 @@ const checkParticularMatch = (posA, posB) => {
         const totalBGoals = localAMatch.visitor.goals + localBMatch.local.goals
         return totalAGoals > totalBGoals ? -1 : (totalAGoals < totalBGoals ? 1 : 0)
     }
+}
+
+const calculateGlobalPositions = (firstTournamentPositions, secondTournamentPositions) => {
+    const globalPositions = initPositions()    
+    firstTournamentPositions.forEach(position => {
+        const teamPosition = globalPositions.find((pos) => pos.team == position.team)
+        teamPosition.pj += position.pj
+        teamPosition.pg += position.pg
+        teamPosition.pe += position.pe
+        teamPosition.pp += position.pp
+        teamPosition.gf += position.gf
+        teamPosition.gc += position.gc
+        teamPosition.dif += position.dif
+        teamPosition.pts += position.pts
+    })
+    secondTournamentPositions.forEach(position => {
+        const teamPosition = globalPositions.find((pos) => pos.team == position.team)
+        teamPosition.pj += position.pj
+        teamPosition.pg += position.pg
+        teamPosition.pe += position.pe
+        teamPosition.pp += position.pp
+        teamPosition.gf += position.gf
+        teamPosition.gc += position.gc
+        teamPosition.dif += position.dif
+        teamPosition.pts += position.pts
+    })
+    sortPositions(globalPositions)
+    return globalPositions
 }
