@@ -2657,7 +2657,7 @@
                             "goals": 0,
                             "team": "Guanacasteca"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -2665,43 +2665,43 @@
                             "team": "Sporting"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Saprissa"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Herediano"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Cartaginés"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Liberia"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Puntarenas"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Alajuelense"
                         },
                         "visitor": {
                             "goals": 0,
                             "team": "Santos"
                         },
-                        "played": false
+                        "played": true
                     }
                 ]
             },
