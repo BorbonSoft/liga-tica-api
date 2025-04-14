@@ -2,10 +2,11 @@
   "name": "liga-tica-api",
   "version": "1.0.0",
   "description": "API for Liga Tica site",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "node api/index.ts",
-    "dev": "node api/index.ts",
+    "dev": "ts-node api/index.ts",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/BorbonSoft/liga-tica-api/issues"
   },
@@ -26,6 +27,8 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.1"
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }

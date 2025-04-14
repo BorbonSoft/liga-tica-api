@@ -1,6 +1,6 @@
-const express = require("express");
-const cors = require("cors");
-const { getAll, getPositions } = require("../src/service/TournamentService.mjs");
+import { express } from "express";
+import { cors } from "cors";
+import { getAll, getPositions } from '../src/service/TournamentService';
 
 require('dotenv').config();
 
