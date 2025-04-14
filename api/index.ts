@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-//const { getAll, getPositions } = require("./service/TournamentService.mjs");
+const { getAll, getPositions } = require("../src/service/TournamentService.mjs");
 
 require('dotenv').config();
 
@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => res.send("Datos LigaTica.com"));
-/*
+
 app.get("/api/tournaments/all", (req, res) => {
   let data = {}
   getAll()
@@ -33,7 +33,7 @@ app.get("/api/tournaments/positions", async (req, res) => {
   else {
     res.json(data)
   }
-});*/
+});
 
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
