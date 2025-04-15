@@ -1,5 +1,5 @@
 const  cors = require('cors');
-const tournamentService = require('../src/service/TournamentService.mjs');
+const tournamentService = require('../src/service/TournamentService');
 const express = require('express');
 
 require('dotenv').config();
