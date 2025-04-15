@@ -1,13 +1,14 @@
 const  cors = require('cors');
 const tournamentService = require('../src/service/TournamentService');
 const express = require('express');
+const path = require('path');
 
 require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
+app.use(express.static(path.resolve('./public')));
 app.use(cors());
 
 app.get("/", (req, res) => res.send("Datos LigaTica.com"));
@@ -15,7 +16,7 @@ app.get("/", (req, res) => res.send("Datos LigaTica.com"));
 app.get("/api/tournaments/all", (req, res) => {
   tournamentService.getAll()
     .then(response => {
-      res.json(JSON.parse(response))
+      res.json(response)
     })
     .catch(error => {
       console.info('Error | api/tournaments/all | Getting all data: ' + error.message)

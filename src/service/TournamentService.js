@@ -3,16 +3,15 @@ import fs from 'fs'
 export const getAll = async () => {
     const baseUrl =
         process.env.VERCEL_URL
-            ? `https://${process.env.VERCEL_URL}`
-            : 'http://localhost:3000';
+            ? `${process.env.VERCEL_URL}`
+            : 'http://localhost:3000'
 
-    const res = await fetch(`${baseUrl}/data/tournaments.json`)
+    const res = await fetch(`${baseUrl}/assets/tournaments.json`)    
     return await res.json()
 }
 
 export const getPositions = async () => {
-    const jsonData = await getAll()
-    const data = JSON.parse(jsonData)
+    const data = await getAll()
     let response = null
     if (typeof data !== 'undefined' && data != null) {
         response = {
