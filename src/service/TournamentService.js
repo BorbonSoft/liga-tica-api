@@ -2,8 +2,8 @@ import fs from 'fs'
 
 export const getAll = async () => {
     const baseUrl =
-        process.env.VERCEL_URL
-            ? `${process.env.VERCEL_URL}`
+        process.env.DATA_FILE_URL
+            ? `${process.env.DATA_FILE_URL}`
             : 'http://localhost:3000'
 
     const res = await fetch(`${baseUrl}/assets/tournaments.json`)    
