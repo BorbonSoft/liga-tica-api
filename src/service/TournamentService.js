@@ -1,8 +1,13 @@
 import fs from 'fs'
 
 export const getAll = async () => {
-    const filePath = process.env.DATA_FILE_PATH
-    return fs.promises.readFile(filePath, "utf8")
+    const baseUrl =
+        process.env.VERCEL_URL
+            ? `https://${process.env.VERCEL_URL}`
+            : 'http://localhost:3000';
+
+    const res = await fetch(`${baseUrl}/data/tournaments.json`)
+    return await res.json()
 }
 
 export const getPositions = async () => {
@@ -95,7 +100,7 @@ const sortPositions = (positions, matchdays = null) => {
         if (a.gf !== b.gf) {
             return b.gf - a.gf
         }
-        if(matchdays != null) {
+        if (matchdays != null) {
             const particularMatchResult = checkParticularMatch(matchdays, a, b)
             if (particularMatchResult != 0) {
                 return particularMatchResult
@@ -109,7 +114,7 @@ const checkParticularMatch = (matchdays, posA, posB) => {
     let localAMatchWinner = ''
     let localAMatch = null
     let localBMatchWinner = ''
-    let localBMatch = null    
+    let localBMatch = null
     matchdays.forEach((matchday) => {
         localAMatch = matchday.matches.find((match) => match.local.team == posA.team && match.visitor.team == posB.team)
         if (localAMatch != null) return
@@ -139,7 +144,7 @@ const checkParticularMatch = (matchdays, posA, posB) => {
 }
 
 const calculateGlobalPositions = (firstTournamentPositions, secondTournamentPositions) => {
-    const globalPositions = initPositions()    
+    const globalPositions = initPositions()
     firstTournamentPositions.forEach(position => {
         const teamPosition = globalPositions.find((pos) => pos.team == position.team)
         teamPosition.pj += position.pj
