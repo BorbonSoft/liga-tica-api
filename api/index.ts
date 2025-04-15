@@ -1,6 +1,6 @@
-import { express } from "express";
-import { cors } from "cors";
-import { getAll, getPositions } from '../src/service/TournamentService';
+const  cors = require('cors');
+const tournamentService = require('../src/service/TournamentService.ts');
+const express = require('express');
 
 require('dotenv').config();
 
@@ -13,8 +13,7 @@ app.use(cors());
 app.get("/", (req, res) => res.send("Datos LigaTica.com"));
 
 app.get("/api/tournaments/all", (req, res) => {
-  let data = {}
-  getAll()
+  tournamentService.getAll()
     .then(response => {
       res.json(JSON.parse(response))
     })
@@ -25,7 +24,7 @@ app.get("/api/tournaments/all", (req, res) => {
 });
 
 app.get("/api/tournaments/positions", async (req, res) => {
-  const data = await getPositions()
+  const data = await tournamentService.getPositions()
   if (typeof data === 'undefined' || data === null) {
     console.info('Error | /api/tornaments/positions | Getting positions')
     res.status(500).send("Error getting positions")
