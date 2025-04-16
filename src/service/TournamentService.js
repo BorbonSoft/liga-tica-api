@@ -1,17 +1,12 @@
-import fs from 'fs'
 
-export const getAll = async () => {
-    const baseUrl =
-        process.env.DATA_FILE_URL
-            ? `${process.env.DATA_FILE_URL}`
-            : 'http://localhost:3000'
 
-    const res = await fetch(`${baseUrl}/assets/tournaments.json`)    
-    return await res.json()
+export const getAllData = async () => {
+    const data = await getData()
+    return assignTeamLogosUrl(data)
 }
 
 export const getPositions = async () => {
-    const data = await getAll()
+    const data = await getData()
     let response = null
     if (typeof data !== 'undefined' && data != null) {
         response = {
@@ -24,6 +19,22 @@ export const getPositions = async () => {
         response.globalPositions = calculateGlobalPositions(response.firstTournament, response.secondTournament)
     }
     return response
+}
+
+
+const getData = async () => {
+    const url = process.env.DATA_FILE_URL ? `${process.env.DATA_FILE_URL}` : ''
+    const res = await fetch(`${url}`)
+    return await res.json()
+}
+
+const assignTeamLogosUrl = (data) => {
+    if(typeof data !== 'undefined' && data !== null) {
+        data.teamsInfo.forEach(teamInfo => {
+            teamInfo.logo = process.env.LIGA_TICA_API_URL + teamInfo.logo
+        })
+    }
+    return data
 }
 
 const calculatePositions = (tournament, data) => {

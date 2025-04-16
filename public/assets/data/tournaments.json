@@ -1,4 +1,54 @@
 {
+    "teamsInfo": [
+        {
+            "team": "Saprissa",
+            "logo": "/assets/logo/Saprissa.png"
+        },
+        {
+            "team": "Alajuelense",
+            "logo": "/assets/logo/Alajuelense.png"
+        },
+        {
+            "team": "Herediano",
+            "logo": "/assets/logo/Herediano.png"
+        },
+        {
+            "team": "Cartaginés",
+            "logo": "/assets/logo/Cartaginés.png"
+        },
+        {
+            "team": "P. Zeledón",
+            "logo": "/assets/logo/P. Zeledón.png"
+        },
+        {
+            "team": "Guanacasteca",
+            "logo": "/assets/logo/Guanacasteca.png"
+        },
+        {
+            "team": "Liberia",
+            "logo": "/assets/logo/Liberia.png"
+        },
+        {
+            "team": "San Carlos",
+            "logo": "/assets/logo/San Carlos.png"
+        },
+        {
+            "team": "Puntarenas",
+            "logo": "/assets/logo/Puntarenas.png"
+        },
+        {
+            "team": "Sporting",
+            "logo": "/assets/logo/Sporting.png"
+        },
+        {
+            "team": "Santos",
+            "logo": "/assets/logo/Santos.png"
+        },
+        {
+            "team": "Santa Ana",
+            "logo": "/assets/logo/Santa Ana.png"
+        }
+    ],
     "firstTournament": {
         "name": "Torneo Apertura 2024",
         "matchdays": [

@@ -14,7 +14,7 @@ app.use(cors());
 app.get("/", (req, res) => res.send("Datos LigaTica.com"));
 
 app.get("/api/tournaments/all", (req, res) => {
-  tournamentService.getAll()
+  tournamentService.getAllData()
     .then(response => {
       res.json(response)
     })
