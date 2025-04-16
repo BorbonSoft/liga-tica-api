@@ -2831,25 +2831,25 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Herediano"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Santos"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Puntarenas"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Saprissa"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -2886,14 +2886,14 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "P. Zeledón"
                         },
                         "visitor": {
                             "goals": 0,
                             "team": "Guanacasteca"
                         },
-                        "played": false
+                        "played": true
                     }
                 ]
             },
