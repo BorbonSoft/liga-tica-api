@@ -2853,25 +2853,25 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Santa Ana"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 4,
                             "team": "Liberia"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "San Carlos"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Cartaginés"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -2882,7 +2882,7 @@
                             "goals": 0,
                             "team": "Sporting"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
