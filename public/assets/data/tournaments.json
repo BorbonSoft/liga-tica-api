@@ -1,4 +1,7 @@
 {
+    "globalData": {
+        "currentTournament": "secondTournament"
+    },
     "teamsInfo": [
         {
             "team": "Saprissa",
