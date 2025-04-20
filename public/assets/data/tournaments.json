@@ -1,6 +1,7 @@
 {
     "globalData": {
-        "currentTournament": "secondTournament"
+        "currentTournament": "secondTournament",
+        "globalTournamentSeason": "Apertura 2024 - Clausura 2025"
     },
     "teamsInfo": [
         {
@@ -53,6 +54,7 @@
         }
     ],
     "firstTournament": {
+        "key": "firstTournament",
         "name": "Torneo Apertura 2024",
         "matchdays": [
             {
@@ -1620,6 +1622,7 @@
         ]
     },
     "secondTournament": {
+        "key": "secondTournament",
         "name": "Torneo Clausura 2025",
         "matchdays": [
             {

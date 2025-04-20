@@ -10,17 +10,30 @@ export const getPositions = async () => {
     let response = null
     if (typeof data !== 'undefined' && data != null) {
         response = {
-            firstTournament: [],
-            secondTournament: [],
+            firstTournamentPositions: [],
+            secondTournamentPositions: [],
             globalPositions: []
         }
-        response.firstTournament = calculatePositions('firstTournament', data)
-        response.secondTournament = calculatePositions('secondTournament', data)
+        response.firstTournamentPositions = calculatePositions(data.firstTournament)
+        response.secondTournamentPositions = calculatePositions(data.secondTournament)
         response.globalPositions = calculateGlobalPositions(response.firstTournament, response.secondTournament)
     }
     return response
 }
 
+export const sortPositionsForModifiedFirstTournament = async (tournamentData) => {
+    const response = { firstTournamentPositions: [] }
+    response.firstTournamentPositions = calculatePositions(tournamentData)
+    return response
+}
+
+export const sortPositionsForModifiedSecondTournament = async (tournamentData) => {
+    const realPositions = await getPositions()
+    const response = { secondTournamentPositions: [], globalPositions: [] }
+    response.secondTournamentPositions = calculatePositions(tournamentData)
+    response.globalPositions = calculateGlobalPositions(realPositions.firstTournament, response.secondTournament)
+    return response
+}
 
 const getData = async () => {
     const url = process.env.DATA_FILE_URL ? `${process.env.DATA_FILE_URL}` : ''
@@ -29,7 +42,7 @@ const getData = async () => {
 }
 
 const assignTeamLogosUrl = (data) => {
-    if(typeof data !== 'undefined' && data !== null) {
+    if (typeof data !== 'undefined' && data !== null) {
         data.teamsInfo.forEach(teamInfo => {
             teamInfo.logo = process.env.LIGA_TICA_API_URL + teamInfo.logo
         })
@@ -37,13 +50,13 @@ const assignTeamLogosUrl = (data) => {
     return data
 }
 
-const calculatePositions = (tournament, data) => {
+const calculatePositions = (tournament) => {
     const positions = initPositions()
-    const matchdays = data[tournament].matchdays
+    const matchdays = tournament.matchdays
     matchdays.forEach(matchday => {
         matchday.matches.forEach(match => {
             if (match.played) {
-                const localTeam = positions.find((data) => data.team == match.local.team)
+                const localTeam = positions.find((pos) => pos.team == match.local.team)
                 localTeam.pj++
                 localTeam.gf += match.local.goals
                 localTeam.gc += match.visitor.goals
