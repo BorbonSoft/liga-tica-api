@@ -16,7 +16,7 @@ export const getPositions = async () => {
         }
         response.firstTournamentPositions = calculatePositions(data.firstTournament)
         response.secondTournamentPositions = calculatePositions(data.secondTournament)
-        response.globalPositions = calculateGlobalPositions(response.firstTournament, response.secondTournament)
+        response.globalPositions = calculateGlobalPositions(response.firstTournamentPositions, response.secondTournamentPositions)
     }
     return response
 }
@@ -31,7 +31,7 @@ export const sortPositionsForModifiedSecondTournament = async (tournamentData) =
     const realPositions = await getPositions()
     const response = { secondTournamentPositions: [], globalPositions: [] }
     response.secondTournamentPositions = calculatePositions(tournamentData)
-    response.globalPositions = calculateGlobalPositions(realPositions.firstTournament, response.secondTournament)
+    response.globalPositions = calculateGlobalPositions(realPositions.firstTournamentPositions, response.secondTournamentPositions)
     return response
 }
 

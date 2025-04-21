@@ -39,7 +39,7 @@ app.get("/api/tournaments/positions", async (req, res) => {
 app.post("/api/tournaments/positions/sort", async (req, res) => {
   const tournament = req.body
   let data = null
-  if (tournament.name === 'firstTournament') {
+  if (tournament.key === 'firstTournament') {
     data = await tournamentService.sortPositionsForModifiedFirstTournament(tournament)
   }
   else {

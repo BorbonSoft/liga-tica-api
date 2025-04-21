@@ -1,6 +1,6 @@
 {
     "globalData": {
-        "currentTournament": "secondTournament",
+        "currentTournamentName": "secondTournament",
         "globalTournamentSeason": "Apertura 2024 - Clausura 2025"
     },
     "teamsInfo": [
