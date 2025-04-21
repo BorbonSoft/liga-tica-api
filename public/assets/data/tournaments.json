@@ -2908,14 +2908,14 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Santos"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Puntarenas"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -2923,10 +2923,10 @@
                             "team": "Liberia"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "San Carlos"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -2941,7 +2941,7 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Cartaginés"
                         },
                         "visitor": {
@@ -2952,14 +2952,14 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Herediano"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Santa Ana"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -2970,7 +2970,7 @@
                             "goals": 0,
                             "team": "P. Zeledón"
                         },
-                        "played": false
+                        "played": true
                     }
                 ]
             },
