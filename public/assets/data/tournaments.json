@@ -2930,14 +2930,14 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Alajuelense"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Saprissa"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
