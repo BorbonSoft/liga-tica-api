@@ -1,6 +1,7 @@
 {
     "globalData": {
         "currentTournamentKey": "secondTournament",
+        "currentMatchdayKey": "Jornada20",
         "globalTournamentSeasonName": "Apertura 2024 - Clausura 2025"
     },
     "teamsInfo": [
@@ -129,6 +130,7 @@
                 ]
             },
             {
+                "key": "Jornada2",
                 "name": "Jornada 2",
                 "matches": [
                     {
@@ -200,6 +202,7 @@
                 ]
             },
             {
+                "key": "Jornada3",
                 "name": "Jornada 3",
                 "matches": [
                     {
@@ -271,6 +274,7 @@
                 ]
             },
             {
+                "key": "Jornada4",
                 "name": "Jornada 4",
                 "matches": [
                     {
@@ -342,6 +346,7 @@
                 ]
             },
             {
+                "key": "Jornada5",
                 "name": "Jornada 5",
                 "matches": [
                     {
@@ -413,6 +418,7 @@
                 ]
             },
             {
+                "key": "Jornada6",
                 "name": "Jornada 6",
                 "matches": [
                     {
@@ -484,6 +490,7 @@
                 ]
             },
             {
+                "key": "Jornada7",
                 "name": "Jornada 7",
                 "matches": [
                     {
@@ -555,6 +562,7 @@
                 ]
             },
             {
+                "key": "Jornada8",
                 "name": "Jornada 8",
                 "matches": [
                     {
@@ -626,6 +634,7 @@
                 ]
             },
             {
+                "key": "Jornada9",
                 "name": "Jornada 9",
                 "matches": [
                     {
@@ -697,6 +706,7 @@
                 ]
             },
             {
+                "key": "Jornada10",
                 "name": "Jornada 10",
                 "matches": [
                     {
@@ -768,6 +778,7 @@
                 ]
             },
             {
+                "key": "Jornada11",
                 "name": "Jornada 11",
                 "matches": [
                     {
@@ -839,6 +850,7 @@
                 ]
             },
             {
+                "key": "Jornada12",
                 "name": "Jornada 12",
                 "matches": [
                     {
@@ -910,6 +922,7 @@
                 ]
             },
             {
+                "key": "Jornada13",
                 "name": "Jornada 13",
                 "matches": [
                     {
@@ -981,6 +994,7 @@
                 ]
             },
             {
+                "key": "Jornada14",
                 "name": "Jornada 14",
                 "matches": [
                     {
@@ -1052,6 +1066,7 @@
                 ]
             },
             {
+                "key": "Jornada15",
                 "name": "Jornada 15",
                 "matches": [
                     {
@@ -1123,6 +1138,7 @@
                 ]
             },
             {
+                "key": "Jornada16",
                 "name": "Jornada 16",
                 "matches": [
                     {
@@ -1194,6 +1210,7 @@
                 ]
             },
             {
+                "key": "Jornada17",
                 "name": "Jornada 17",
                 "matches": [
                     {
@@ -1265,6 +1282,7 @@
                 ]
             },
             {
+                "key": "Jornada18",
                 "name": "Jornada 18",
                 "matches": [
                     {
@@ -1336,6 +1354,7 @@
                 ]
             },
             {
+                "key": "Jornada19",
                 "name": "Jornada 19",
                 "matches": [
                     {
@@ -1407,6 +1426,7 @@
                 ]
             },
             {
+                "key": "Jornada20",
                 "name": "Jornada 20",
                 "matches": [
                     {
@@ -1478,6 +1498,7 @@
                 ]
             },
             {
+                "key": "Jornada21",
                 "name": "Jornada 21",
                 "matches": [
                     {
@@ -1549,6 +1570,7 @@
                 ]
             },
             {
+                "key": "Jornada22",
                 "name": "Jornada 22",
                 "matches": [
                     {
@@ -1626,6 +1648,7 @@
         "name": "Torneo Clausura 2025",
         "matchdays": [
             {
+                "key": "Jornada1",
                 "name": "Jornada 1",
                 "matches": [
                     {
@@ -1697,6 +1720,7 @@
                 ]
             },
             {
+                "key": "Jornada2",
                 "name": "Jornada 2",
                 "matches": [
                     {
@@ -1768,6 +1792,7 @@
                 ]
             },
             {
+                "key": "Jornada3",
                 "name": "Jornada 3",
                 "matches": [
                     {
@@ -1839,6 +1864,7 @@
                 ]
             },
             {
+                "key": "Jornada4",
                 "name": "Jornada 4",
                 "matches": [
                     {
@@ -1910,6 +1936,7 @@
                 ]
             },
             {
+                "key": "Jornada5",
                 "name": "Jornada 5",
                 "matches": [
                     {
@@ -1981,6 +2008,7 @@
                 ]
             },
             {
+                "key": "Jornada6",
                 "name": "Jornada 6",
                 "matches": [
                     {
@@ -2052,6 +2080,7 @@
                 ]
             },
             {
+                "key": "Jornada7",
                 "name": "Jornada 7",
                 "matches": [
                     {
@@ -2123,6 +2152,7 @@
                 ]
             },
             {
+                "key": "Jornada8",
                 "name": "Jornada 8",
                 "matches": [
                     {
@@ -2194,6 +2224,7 @@
                 ]
             },
             {
+                "key": "Jornada9",
                 "name": "Jornada 9",
                 "matches": [
                     {
@@ -2265,6 +2296,7 @@
                 ]
             },
             {
+                "key": "Jornada10",
                 "name": "Jornada 10",
                 "matches": [
                     {
@@ -2336,6 +2368,7 @@
                 ]
             },
             {
+                "key": "Jornada11",
                 "name": "Jornada 11",
                 "matches": [
                     {
@@ -2407,6 +2440,7 @@
                 ]
             },
             {
+                "key": "Jornada12",
                 "name": "Jornada 12",
                 "matches": [
                     {
@@ -2478,6 +2512,7 @@
                 ]
             },
             {
+                "key": "Jornada13",
                 "name": "Jornada 13",
                 "matches": [
                     {
@@ -2549,6 +2584,7 @@
                 ]
             },
             {
+                "key": "Jornada14",
                 "name": "Jornada 14",
                 "matches": [
                     {
@@ -2620,6 +2656,7 @@
                 ]
             },
             {
+                "key": "Jornada15",
                 "name": "Jornada 15",
                 "matches": [
                     {
@@ -2691,6 +2728,7 @@
                 ]
             },
             {
+                "key": "Jornada16",
                 "name": "Jornada 16",
                 "matches": [
                     {
@@ -2762,6 +2800,7 @@
                 ]
             },
             {
+                "key": "Jornada17",
                 "name": "Jornada 17",
                 "matches": [
                     {
@@ -2833,6 +2872,7 @@
                 ]
             },
             {
+                "key": "Jornada18",
                 "name": "Jornada 18",
                 "matches": [
                     {
@@ -2904,6 +2944,7 @@
                 ]
             },
             {
+                "key": "Jornada19",
                 "name": "Jornada 19",
                 "matches": [
                     {
@@ -2975,6 +3016,7 @@
                 ]
             },
             {
+                "key": "Jornada20",
                 "name": "Jornada 20",
                 "matches": [
                     {
@@ -3046,6 +3088,7 @@
                 ]
             },
             {
+                "key": "Jornada21",
                 "name": "Jornada 21",
                 "matches": [
                     {
@@ -3117,6 +3160,7 @@
                 ]
             },
             {
+                "key": "Jornada22",
                 "name": "Jornada 22",
                 "matches": [
                     {
