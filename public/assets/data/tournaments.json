@@ -3021,14 +3021,14 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Santa Ana"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Santos"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
