@@ -3032,14 +3032,14 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "San Carlos"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Herediano"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -3054,14 +3054,14 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Saprissa"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Cartaginés"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
