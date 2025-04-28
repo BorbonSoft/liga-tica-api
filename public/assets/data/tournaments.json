@@ -3021,25 +3021,25 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Santa Ana"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Santos"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "San Carlos"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Herediano"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -3047,32 +3047,32 @@
                             "team": "Guanacasteca"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Sporting"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Saprissa"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Cartaginés"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "P. Zeledón"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 5,
                             "team": "Liberia"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -3080,10 +3080,10 @@
                             "team": "Puntarenas"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Alajuelense"
                         },
-                        "played": false
+                        "played": true
                     }
                 ]
             },
