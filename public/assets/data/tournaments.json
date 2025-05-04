@@ -2,54 +2,67 @@
     "globalData": {
         "currentTournamentKey": "secondTournament",
         "currentMatchdayKey": "Jornada21",
+        "isFinalPhaseStarted": false,
         "globalTournamentSeasonName": "Apertura 2024 - Clausura 2025"
     },
     "teamsInfo": [
         {
+            "key": "Saprissa",
             "team": "Saprissa",
             "logo": "/assets/logo/Saprissa.png"
         },
         {
+            "key": "Alajuelense",
             "team": "Alajuelense",
             "logo": "/assets/logo/Alajuelense.png"
         },
         {
+            "key": "Herediano",
             "team": "Herediano",
             "logo": "/assets/logo/Herediano.png"
         },
         {
+            "key": "Cartaginés",
             "team": "Cartaginés",
             "logo": "/assets/logo/Cartaginés.png"
         },
         {
+            "key": "P.Zeledón",
             "team": "P. Zeledón",
             "logo": "/assets/logo/P. Zeledón.png"
         },
         {
+            "key": "Guanacasteca",
             "team": "Guanacasteca",
             "logo": "/assets/logo/Guanacasteca.png"
         },
         {
+            "key": "Liberia",
             "team": "Liberia",
             "logo": "/assets/logo/Liberia.png"
         },
         {
+            "key": "SanCarlos",
             "team": "San Carlos",
             "logo": "/assets/logo/San Carlos.png"
         },
         {
+            "key": "Puntarena",
             "team": "Puntarenas",
             "logo": "/assets/logo/Puntarenas.png"
         },
         {
+            "key": "Sporting",
             "team": "Sporting",
             "logo": "/assets/logo/Sporting.png"
         },
         {
+            "key": "Santos",
             "team": "Santos",
             "logo": "/assets/logo/Santos.png"
         },
         {
+            "key": "SantaAna",
             "team": "Santa Ana",
             "logo": "/assets/logo/Santa Ana.png"
         }
@@ -1641,7 +1654,56 @@
                     }
                 ]
             }
-        ]
+        ],
+        "finalPhase": {
+            "regularPhaseWinnerKey": "Herediano",
+            "matches": [
+                {
+                    "local": {
+                        "goals": 0,
+                        "team": "Guanacasteca"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Liberia"
+                    },
+                    "played": false
+                },
+                {
+                    "local": {
+                        "goals": 0,
+                        "team": "San Carlos"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Saprissa"
+                    },
+                    "played": false
+                },
+                {
+                    "local": {
+                        "goals": 0,
+                        "team": "Alajuelense"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Santa Ana"
+                    },
+                    "played": false
+                },
+                {
+                    "local": {
+                        "goals": 0,
+                        "team": "Cartaginés"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Santos"
+                    },
+                    "played": false
+                }
+            ]
+        }
     },
     "secondTournament": {
         "key": "secondTournament",
@@ -3093,25 +3155,25 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Sporting"
                         },
                         "visitor": {
                             "goals": 0,
                             "team": "San Carlos"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Santos"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "P. Zeledón"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -3119,21 +3181,21 @@
                             "team": "Liberia"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Cartaginés"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Herediano"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Puntarenas"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -3148,14 +3210,14 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Saprissa"
                         },
                         "visitor": {
                             "goals": 0,
                             "team": "Guanacasteca"
                         },
-                        "played": false
+                        "played": true
                     }
                 ]
             },
@@ -3231,6 +3293,55 @@
                     }
                 ]
             }
-        ]
+        ],
+        "finalPhase": {
+            "regularPhaseWinnerKey": "Herediano",
+            "matches": [
+                {
+                    "local": {
+                        "goals": 0,
+                        "team": "Guanacasteca"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Liberia"
+                    },
+                    "played": false
+                },
+                {
+                    "local": {
+                        "goals": 0,
+                        "team": "San Carlos"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Saprissa"
+                    },
+                    "played": false
+                },
+                {
+                    "local": {
+                        "goals": 0,
+                        "team": "Alajuelense"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Santa Ana"
+                    },
+                    "played": false
+                },
+                {
+                    "local": {
+                        "goals": 0,
+                        "team": "Cartaginés"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Santos"
+                    },
+                    "played": false
+                }
+            ]
+        }
     }
 }
