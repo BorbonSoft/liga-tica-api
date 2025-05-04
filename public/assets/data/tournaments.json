@@ -3199,14 +3199,14 @@
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Santa Ana"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Alajuelense"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
