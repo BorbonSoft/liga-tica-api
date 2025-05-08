@@ -3227,25 +3227,25 @@
                 "matches": [
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Alajuelense"
                         },
                         "visitor": {
                             "goals": 0,
                             "team": "Liberia"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 1,
                             "team": "Cartaginés"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 2,
                             "team": "Sporting"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -3253,21 +3253,21 @@
                             "team": "Guanacasteca"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Herediano"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Puntarenas"
                         },
                         "visitor": {
                             "goals": 0,
                             "team": "Santa Ana"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
@@ -3275,21 +3275,21 @@
                             "team": "P. Zeledón"
                         },
                         "visitor": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "Saprissa"
                         },
-                        "played": false
+                        "played": true
                     },
                     {
                         "local": {
-                            "goals": 0,
+                            "goals": 3,
                             "team": "San Carlos"
                         },
                         "visitor": {
                             "goals": 0,
                             "team": "Santos"
                         },
-                        "played": false
+                        "played": true
                     }
                 ]
             }
