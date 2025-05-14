@@ -1657,52 +1657,106 @@
         ],
         "finalPhase": {
             "regularPhaseWinnerKey": "Herediano",
-            "matches": [
-                {
-                    "local": {
-                        "goals": 0,
-                        "team": "Guanacasteca"
+            "finalWinnerKey": null,
+            "lastFinalWinnerKey": null,
+            "playoffs": {
+                "firstMatchday": {
+                    "playoff1": {
+                        "local": {
+                            "goals": 4,
+                            "team": "Saprissa"
+                        },
+                        "visitor": {
+                            "goals": 0,
+                            "team": "Herediano"
+                        },
+                        "played": true
                     },
-                    "visitor": {
-                        "goals": 0,
-                        "team": "Liberia"
-                    },
-                    "played": false
+                    "playoff2": {
+                        "local": {
+                            "goals": 0,
+                            "team": "Puntarenas"
+                        },
+                        "visitor": {
+                            "goals": 0,
+                            "team": "Alajuelense"
+                        },
+                        "played": true
+                    }
                 },
-                {
-                    "local": {
-                        "goals": 0,
-                        "team": "San Carlos"
+                "secondMatchday": {
+                    "playoff1": {
+                        "local": {
+                            "goals": 0,
+                            "team": "Herediano"
+                        },
+                        "visitor": {
+                            "goals": 0,
+                            "team": "Saprissa"
+                        },
+                        "played": false
                     },
-                    "visitor": {
-                        "goals": 0,
-                        "team": "Saprissa"
-                    },
-                    "played": false
-                },
-                {
+                    "playoff2": {
+                        "local": {
+                            "goals": 0,
+                            "team": "Alajuelense"
+                        },
+                        "visitor": {
+                            "goals": 0,
+                            "team": "Puntarenas"
+                        },
+                        "played": false
+                    }
+                }
+            },
+            "final": {
+                "firstMatchday": {
                     "local": {
                         "goals": 0,
                         "team": "Alajuelense"
                     },
                     "visitor": {
                         "goals": 0,
-                        "team": "Santa Ana"
+                        "team": "Puntarenas"
                     },
                     "played": false
                 },
-                {
+                "secondMatchday": {
                     "local": {
                         "goals": 0,
-                        "team": "Cartaginés"
+                        "team": "Alajuelense"
                     },
                     "visitor": {
                         "goals": 0,
-                        "team": "Santos"
+                        "team": "Puntarenas"
                     },
                     "played": false
                 }
-            ]
+            },
+            "lastFinal": {
+                "firstMatchday": {
+                    "local": {
+                        "goals": 0,
+                        "team": "Alajuelense"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Puntarenas"
+                    },
+                    "played": false
+                },
+                "secondMatchday": {
+                    "local": {
+                        "goals": 0,
+                        "team": "Alajuelense"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Puntarenas"
+                    },
+                    "played": false
+                }
+            }
         }
     },
     "secondTournament": {
@@ -3296,52 +3350,106 @@
         ],
         "finalPhase": {
             "regularPhaseWinnerKey": "Herediano",
-            "matches": [
-                {
+            "finalWinnerKey": null,
+            "lastFinalWinnerKey": null,
+            "playoffs": {
+                "firstMatchday": {
+                    "playoff1": {
+                        "local": {
+                            "goals": 4,
+                            "team": "Saprissa"
+                        },
+                        "visitor": {
+                            "goals": 0,
+                            "team": "Herediano"
+                        },
+                        "played": true
+                    },
+                    "playoff2": {
+                        "local": {
+                            "goals": 0,
+                            "team": "Puntarenas"
+                        },
+                        "visitor": {
+                            "goals": 0,
+                            "team": "Alajuelense"
+                        },
+                        "played": true
+                    }
+                },
+                "secondMatchday": {
+                    "playoff1": {
+                        "local": {
+                            "goals": 0,
+                            "team": "Herediano"
+                        },
+                        "visitor": {
+                            "goals": 0,
+                            "team": "Saprissa"
+                        },
+                        "played": false
+                    },
+                    "playoff2": {
+                        "local": {
+                            "goals": 0,
+                            "team": "Alajuelense"
+                        },
+                        "visitor": {
+                            "goals": 0,
+                            "team": "Puntarenas"
+                        },
+                        "played": false
+                    }
+                }
+            },
+            "final": {
+                "firstMatchday": {
                     "local": {
                         "goals": 0,
-                        "team": "Guanacasteca"
+                        "team": ""
                     },
                     "visitor": {
                         "goals": 0,
-                        "team": "Liberia"
+                        "team": ""
                     },
                     "played": false
                 },
-                {
+                "secondMatchday": {
                     "local": {
                         "goals": 0,
-                        "team": "San Carlos"
+                        "team": ""
                     },
                     "visitor": {
                         "goals": 0,
-                        "team": "Saprissa"
-                    },
-                    "played": false
-                },
-                {
-                    "local": {
-                        "goals": 0,
-                        "team": "Alajuelense"
-                    },
-                    "visitor": {
-                        "goals": 0,
-                        "team": "Santa Ana"
-                    },
-                    "played": false
-                },
-                {
-                    "local": {
-                        "goals": 0,
-                        "team": "Cartaginés"
-                    },
-                    "visitor": {
-                        "goals": 0,
-                        "team": "Santos"
+                        "team": ""
                     },
                     "played": false
                 }
-            ]
+            },
+            "lastFinal": {
+                "firstMatchday": {
+                    "local": {
+                        "goals": 0,
+                        "team": ""
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": "Herediano"
+                    },
+                    "played": false
+                },
+                "secondMatchday": {
+                    "local": {
+                        "goals": 0,
+                        "team": "Herediano"
+                    },
+                    "visitor": {
+                        "goals": 0,
+                        "team": ""
+                    },
+                    "played": false
+                }
+            }
         }
     }
 }
