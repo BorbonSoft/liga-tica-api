@@ -1688,10 +1688,12 @@
                     "playoff1": {
                         "local": {
                             "goals": 0,
+                            "goalsExtraTime": 0,
                             "team": "Herediano"
                         },
                         "visitor": {
                             "goals": 0,
+                            "goalsExtraTime": 0,
                             "team": "Saprissa"
                         },
                         "played": false
@@ -1699,13 +1701,15 @@
                     "playoff2": {
                         "local": {
                             "goals": 0,
+                            "goalsExtraTime": 1,
                             "team": "Alajuelense"
                         },
                         "visitor": {
                             "goals": 0,
+                            "goalsExtraTime": 0,
                             "team": "Puntarenas"
                         },
-                        "played": false
+                        "played": true
                     }
                 }
             },
@@ -3380,25 +3384,29 @@
                 "secondMatchday": {
                     "playoff1": {
                         "local": {
-                            "goals": 0,
+                            "goals": 2,
+                            "goalsExtraTime": 0,
                             "team": "Herediano"
                         },
                         "visitor": {
                             "goals": 0,
+                            "goalsExtraTime": 0,
                             "team": "Saprissa"
                         },
-                        "played": false
+                        "played": true
                     },
                     "playoff2": {
                         "local": {
                             "goals": 0,
+                            "goalsExtraTime": 1,
                             "team": "Alajuelense"
                         },
                         "visitor": {
                             "goals": 0,
+                            "goalsExtraTime": 0,
                             "team": "Puntarenas"
                         },
-                        "played": false
+                        "played": true
                     }
                 }
             },
@@ -3406,22 +3414,22 @@
                 "firstMatchday": {
                     "local": {
                         "goals": 0,
-                        "team": ""
+                        "team": "Saprissa"
                     },
                     "visitor": {
                         "goals": 0,
-                        "team": ""
+                        "team": "Alajuelense"
                     },
                     "played": false
                 },
                 "secondMatchday": {
                     "local": {
                         "goals": 0,
-                        "team": ""
+                        "team": "Alajuelense"
                     },
                     "visitor": {
                         "goals": 0,
-                        "team": ""
+                        "team": "Saprissa"
                     },
                     "played": false
                 }
