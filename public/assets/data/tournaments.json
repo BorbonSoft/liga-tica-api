@@ -3413,14 +3413,14 @@
             "final": {
                 "firstMatchday": {
                     "local": {
-                        "goals": 0,
+                        "goals": 3,
                         "team": "Saprissa"
                     },
                     "visitor": {
-                        "goals": 0,
+                        "goals": 3,
                         "team": "Alajuelense"
                     },
-                    "played": false
+                    "played": true
                 },
                 "secondMatchday": {
                     "local": {
