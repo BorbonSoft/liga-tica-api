@@ -3424,21 +3424,21 @@
                 },
                 "secondMatchday": {
                     "local": {
-                        "goals": 0,
+                        "goals": 1,
                         "team": "Alajuelense"
                     },
                     "visitor": {
                         "goals": 0,
                         "team": "Saprissa"
                     },
-                    "played": false
+                    "played": true
                 }
             },
             "lastFinal": {
                 "firstMatchday": {
                     "local": {
                         "goals": 0,
-                        "team": ""
+                        "team": "Alajuelense"
                     },
                     "visitor": {
                         "goals": 0,
@@ -3453,7 +3453,7 @@
                     },
                     "visitor": {
                         "goals": 0,
-                        "team": ""
+                        "team": "Alajuelense"
                     },
                     "played": false
                 }
